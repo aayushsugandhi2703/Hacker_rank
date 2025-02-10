@@ -1,3 +1,8 @@
+#pattern
+# 1
+# 22
+# 333
+# 4444
 n = int(input())  
 
 for i in range(1, n):  # Loop from 1 to n-1

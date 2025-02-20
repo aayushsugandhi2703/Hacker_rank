@@ -10,5 +10,7 @@ real = int(str[0])
 imaginary = int(str[1][:-1])
 fun(real, imaginary)
 
-print(abs(str))
-print(phase(str))
+# Output:
+# 1+2j
+# 2.23606797749979
+# 1.1071487177940904

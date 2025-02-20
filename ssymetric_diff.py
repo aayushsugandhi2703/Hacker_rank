@@ -1,0 +1,10 @@
+size_a = int(input())
+a = list(map(int, input().split()))
+size_b = int(input())
+b = list(map(int, input().split()))
+a = set(a)
+b = set(b)
+result = a.symmetric_difference(b)  
+sorted_result = sorted(result)
+for i in sorted_result:
+    print(i)

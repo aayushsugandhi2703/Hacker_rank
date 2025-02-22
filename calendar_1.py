@@ -1,3 +1,4 @@
+# this helps in finding out the day of the week for a given date
 import calendar
 
 month, day, year = map(int, input().split())

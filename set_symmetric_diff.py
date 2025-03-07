@@ -1,0 +1,5 @@
+n1 = int(input())  
+nums1 = set(map(int, input().split()))  
+n2 = int(input())  
+nums2 = set(map(int, input().split()))  
+print(len(nums1.symmetric_difference(nums2)))

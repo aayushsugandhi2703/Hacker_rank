@@ -18,9 +18,9 @@ a = np.array(array1)
 b = np.array(array2)
 
 # Perform operations
-print(a + b)                    # Addition
-print(a - b)                    # Subtraction
-print(a * b)                    # Multiplication
-print(a // b)                   # Integer Division (floor division)
-print(a % b)                    # Modulus
-print(a ** b)                   # Power
+print(a + b)                    
+print(a - b)                    
+print(a * b)                    
+print(a // b)                   
+print(a % b)
+print(a ** b)                   

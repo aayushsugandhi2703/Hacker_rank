@@ -5,7 +5,6 @@ def wrapper(f):
             num = i[-10:]  # Extract last 10 digits
             formatted_num = f"+91 {num[:5]} {num[5:]}"
             arr.append(formatted_num)
-        # Call the original function with the formatted list
         return f(arr)
     return fun
 
